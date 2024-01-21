@@ -1,0 +1,196 @@
+.menu {
+  display: flex;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 16px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.3%;
+  margin-left: -6rem;
+  margin-right: auto;
+  gap: 2rem;
+}
+
+.mobilemenu {
+  display: none;
+  z-index: 2;
+}
+
+.mmoverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.mobilemenuContent {
+  position: fixed;
+  font-family: var(--font-inter, sans-serif);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 6;
+}
+
+.mobilemenuContent a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.mobilemenu button {
+  border-radius: 15px;
+  color: var(--t-d);
+}
+
+.ebtn {
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  background-color: #1b1b1b;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.cbtn {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  background-color: var(--btn);
+  font-size: 16px;
+  border-radius: 10px;
+  margin-bottom: auto;
+  cursor: pointer;
+}
+.mbtn {
+  margin: 1rem auto;
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  background-color: var(--btn);
+  font-size: 16px;
+  border: 2px solid var(--btn-l);
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cmbtn {
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  background-color: #0e0e0e;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.spc {
+  margin-top: 2rem;
+}
+
+.modal {
+  position: fixed;
+  text-align: center;
+  font-family: var(--font-inter), sans-serif;
+  top: 50%;
+  left: 50%;
+  border-radius: 15px;
+  transform: translate(-50%, -50%);
+  background-color: #1e1e1e;
+  padding: 20px;
+  z-index: 5;
+  max-width: 400px;
+  width: 100%;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 4;
+}
+
+.hideDesktopMenu {
+  display: none;
+}
+
+.booking {
+  text-align: center;
+  border-radius: 30px;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.booking:hover {
+  background-color: var(--btn-l);
+  scale: 1.025;
+}
+
+.hoverUnderline {
+  display: inline-block;
+  position: relative;
+}
+
+.hoverUnderline::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0.5px;
+  bottom: -5px;
+  left: 0;
+  background-color: #000;
+  transition: width 0.15s ease-out;
+}
+
+.hoverUnderline:hover::after {
+  width: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  .hoverUnderline::after {
+    background-color: #fff;
+  }
+}
+
+@media (max-width: 1032px) {
+  .menu {
+    display: none;
+  }
+
+  .booking {
+    display: none;
+  }
+
+  .mobilemenu {
+    margin-top: 0.6rem;
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .mobilemenuContent button {
+    margin: 1rem;
+  }
+}

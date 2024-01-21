@@ -1,0 +1,30 @@
+.top {
+  max-width: 80%;
+  margin: auto;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.mainh1 {
+  font-size: 4rem;
+  line-height: 1;
+  font-family: var(--font-oswald), sans-serif;
+}
+
+.heading {
+  margin-right: auto;
+  text-align: left;
+}
+
+.heading h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-family: var(--font-inter), sans-serif;
+}
+
+@media (max-width: 1032px) {
+  .mainh1 {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 80%;
+  }
+}

@@ -1,0 +1,93 @@
+.top {
+  max-width: 80%;
+  margin: auto;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.main {
+  font-size: 4rem;
+  line-height: 1;
+  font-family: var(--font-oswald), sans-serif;
+}
+
+.heading {
+  margin-right: auto;
+  text-align: left;
+}
+
+.heading h3 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-family: var(--font-inter), sans-serif;
+}
+
+.systemcontainer {
+  border-radius: 8px;
+  margin-top: 2rem;
+  background-color: var(--bg-d);
+}
+
+.dayheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, var(--btn), #661a1a);
+  padding: 1rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+.dayheader h2 {
+  margin: 0;
+}
+
+.chevron-icons {
+  display: flex;
+  align-items: center;
+}
+
+.day {
+  overflow: hidden;
+  background-color: #252525a4;
+  transition: height 0.5s ease-in-out;
+  height: auto;
+}
+
+.tasklist {
+  list-style: none;
+  text-align: left;
+  margin: 0;
+  padding-top: -1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 0;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    padding 0.3s ease-in-out;
+}
+
+.tasklist h3 {
+  font-family: var(--font-oswald), sans-serif;
+}
+
+.tasklist.visible {
+  max-height: 500px;
+  opacity: 1;
+  padding: 1rem;
+  transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out,
+    padding 0.3s ease-in-out;
+}
+
+.task {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 1032px) {
+  .main {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 80%;
+  }
+}

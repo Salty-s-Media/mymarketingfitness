@@ -1,0 +1,79 @@
+.top {
+  max-width: 80%;
+  margin: auto;
+}
+
+.contentOnTop {
+  position: absolute;
+  text-align: center;
+  color: white;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  font-family: var(--font-oswald), sans-serif;
+  font-size: 4.5em;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.joinButton {
+  margin-top: 1rem;
+  padding: 15px 30px;
+  font-family: var(--font-inter), sans-serif;
+  font-size: 1.2rem;
+  background-color: var(--btn);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.joinButton:hover {
+  background-color: var(--btn-l);
+}
+
+.overlayer {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.bgimg {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1032px) {
+  .heading {
+    font-size: 3em;
+  }
+  .joinButton {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .heading {
+    font-size: 2em;
+  }
+  .contentOnTop {
+    scale: 0.8;
+  }
+  .joinButton {
+    font-size: 0.875rem;
+  }
+}

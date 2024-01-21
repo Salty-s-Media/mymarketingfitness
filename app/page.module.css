@@ -1,0 +1,121 @@
+.navarea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.75rem;
+}
+
+.page {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 4rem;
+}
+
+.pagep {
+  font-size: 1.25rem;
+  color: var(--t-m);
+  font-family: var(--font-inter), sans-serif;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  line-height: 30px;
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.pageh1 {
+  font-family: var(--font-oswald), sans-serif;
+  margin: auto;
+  max-width: 680px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  font-size: 64px;
+  text-transform: uppercase;
+  line-height: 64px;
+}
+
+.ctaButton {
+  background-color: #b00404;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #e70000;
+}
+
+.ctaButtonSecondary {
+  background-color: transparent;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: 1px solid #6d6f8b;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButtonSecondary:hover {
+  background-color: #6d6f8b;
+}
+
+.ctaBtns {
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin-right: auto;
+}
+
+.log {
+  display: flex;
+  margin-right: auto;
+}
+
+@media (max-width: 1032px) {
+  .navarea {
+    display: hidden;
+  }
+  .pageh1 {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 520px;
+  }
+
+  .pagep {
+    font-size: 1rem;
+    line-height: 24px;
+    max-width: 420px;
+  }
+}
+
+@media (max-width: 720px) {
+  .navarea {
+    display: hidden;
+  }
+  .pageh1 {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 80%;
+  }
+
+  .pagep {
+    font-size: 1rem;
+    line-height: 24px;
+    max-width: 320px;
+  }
+  .ctaBtns {
+    scale: 0.9;
+  }
+}

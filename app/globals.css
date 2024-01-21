@@ -1,0 +1,65 @@
+:root {
+  --bg: #ffffff;
+  --bg-d: #1e1e1e;
+  --t: #000000;
+  --t-m: #acacac;
+  --tmf: #acacac50;
+  --t-d: #ffffff;
+  --btn: #bf0101;
+  --btn-l: #ff5050;
+}
+
+.osw {
+  font-family: var(--font-oswald);
+}
+
+.intr {
+  font-family: var(--font-inter);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  max-width: 100dvw;
+  max-height: 100dvh;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--t);
+  background: var(--bg);
+}
+
+button {
+  background-color: var(--btn);
+  border: none;
+  color: white;
+  padding: 15px 15px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: var(--t-d);
+    background: var(--bg-d);
+  }
+}
