@@ -31,7 +31,7 @@ export default function Home() {
         </p>
         <div className={styles.ctaBtns}>
           <Link href="/#pricing">
-            <button aria-label="Get Started" className={styles.ctaButton}>
+            <button aria-label="Get Started Now" className={styles.ctaButton}>
               Get Started Now
             </button>
           </Link>
