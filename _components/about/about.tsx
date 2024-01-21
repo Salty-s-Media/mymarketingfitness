@@ -83,7 +83,12 @@ export const About = () => {
             </div>
             <div className={styles.ctaContainer}>
               <Link href="/#pricing">
-                <button className={styles.ctaButton}>Talk to Dmitry</button>
+                <button
+                  aria-label="Talk to Dmitry"
+                  className={styles.ctaButton}
+                >
+                  Talk to Dmitry
+                </button>
               </Link>
             </div>
           </div>

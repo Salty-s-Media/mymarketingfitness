@@ -44,10 +44,18 @@ const VideoCarousel: React.FC<VideoCarouselProps> = ({ videos }) => {
         ))}
       </div>
       <div className={styles.buttonContainer}>
-        <button className={styles.prevButton} onClick={prevSlide}>
+        <button
+          aria-label="prev Video"
+          className={styles.prevButton}
+          onClick={prevSlide}
+        >
           <ArrowLeftSquare />
         </button>
-        <button className={styles.nextButton} onClick={nextSlide}>
+        <button
+          aria-label="next Video"
+          className={styles.nextButton}
+          onClick={nextSlide}
+        >
           <ArrowRightSquare />
         </button>
       </div>

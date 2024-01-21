@@ -30,17 +30,29 @@ export const Navbar = () => {
         {isMenuOpen && (
           <div className={styles.mobilemenuContent}>
             <Link href="/#pricing">
-              <button onClick={toggleMenu} className={styles.cbtn}>
+              <button
+                aria-label="Pricing"
+                onClick={toggleMenu}
+                className={styles.cbtn}
+              >
                 Pricing
               </button>
             </Link>
             <Link href="https://www.theroof.store/category/roofing-insights">
-              <button onClick={toggleMenu} className={styles.cbtn}>
+              <button
+                aria-label="Buy Supplies"
+                onClick={toggleMenu}
+                className={styles.cbtn}
+              >
                 Buy Roofing Supplies
               </button>
             </Link>
             <Link href="http://marketingfitness.coachcatalyst.com/">
-              <button onClick={toggleMenu} className={styles.cbtn}>
+              <button
+                aria-label="Login"
+                onClick={toggleMenu}
+                className={styles.cbtn}
+              >
                 Login
               </button>
             </Link>
@@ -97,14 +109,22 @@ export const Navbar = () => {
           <br />
           <h3>30-Minute Zoom Call, $299</h3>
           <Link href="https://calendly.com/roofing-insights/paid-consultation-zoom?month=2023-06">
-            <button className={styles.mbtn}>Book Now</button>
+            <button aria-label="Book Now" className={styles.mbtn}>
+              Book Now
+            </button>
           </Link>
           <h3>60-Minute Zoom Call, $499</h3>
           <Link href="https://calendly.com/roofing-insights/paid-consultation-zoom?month=2023-06">
-            <button className={styles.mbtn}>Book Now</button>
+            <button aria-label="Book Now" className={styles.mbtn}>
+              Book Now
+            </button>
           </Link>
           <div className={styles.spc}>
-            <button className={styles.cmbtn} onClick={toggleModal}>
+            <button
+              aria-label="Close"
+              className={styles.cmbtn}
+              onClick={toggleModal}
+            >
               <XSquare />
             </button>
           </div>

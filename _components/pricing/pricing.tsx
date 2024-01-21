@@ -70,7 +70,12 @@ export const Pricing = () => {
             </div>
             <div className={styles.gsbCont}>
               <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_OmBbWAdENbAqAR">
-                <button className={styles.getStartedBtn}>Get Started</button>
+                <button
+                  aria-label="Get Started"
+                  className={styles.getStartedBtn}
+                >
+                  Get Started
+                </button>
               </Link>
             </div>
           </div>
@@ -103,7 +108,12 @@ export const Pricing = () => {
             </div>
             <div className={styles.gsbCont}>
               <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_Okf3XNqmn2D4XQ">
-                <button className={styles.getStartedBtn}>Get Started</button>
+                <button
+                  aria-label="Get Started"
+                  className={styles.getStartedBtn}
+                >
+                  Get Started
+                </button>
               </Link>
             </div>
           </div>
@@ -147,7 +157,12 @@ export const Pricing = () => {
               </div>
               <div className={styles.gsbCont}>
                 <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_O5umF0r5o5Nsal">
-                  <button className={styles.getStartedBtn}>Get Started</button>
+                  <button
+                    aria-label="Get Started"
+                    className={styles.getStartedBtn}
+                  >
+                    Get Started
+                  </button>
                 </Link>
               </div>
             </div>

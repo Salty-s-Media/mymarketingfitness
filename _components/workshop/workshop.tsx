@@ -65,7 +65,9 @@ export const Workshop = () => {
           </div>
           <div className={styles.gsb}>
             <Link href="/#pricing">
-              <button className={styles.btn}>Get Started</button>
+              <button aria-label="Get Started" className={styles.btn}>
+                Get Started
+              </button>
             </Link>
           </div>
         </div>

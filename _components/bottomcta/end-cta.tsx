@@ -22,7 +22,9 @@ export const EndCta = () => {
               MAKE MARKETING YOUR COMPANY PART OF YOUR DAILY ROUTINE
             </h1>
             <Link href="/#pricing">
-              <button className={styles.joinButton}>Join Now</button>
+              <button aria-label="Join" className={styles.joinButton}>
+                Join Now
+              </button>
             </Link>
           </div>
         </div>
