@@ -13,10 +13,10 @@
 
 .heading {
   font-family: var(--font-oswald), sans-serif;
-  font-size: 4.5em;
+  font-size: 4rem;
   font-weight: 500;
   line-height: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .overlay {
@@ -32,7 +32,7 @@
   margin-top: 1rem;
   padding: 15px 30px;
   font-family: var(--font-inter), sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   background-color: var(--btn);
   color: #fff;
   border: none;
@@ -47,6 +47,7 @@
 
 .overlayer {
   position: relative;
+  max-height: 35rem;
   overflow: hidden;
   display: flex;
   align-items: center;

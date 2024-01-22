@@ -80,16 +80,16 @@ export const About = () => {
                 He emphasizes storytelling, brand building, and organic content
                 over traditional methods like door knocking and cold calling.
               </p>
-            </div>
-            <div className={styles.ctaContainer}>
-              <Link href="/#pricing">
-                <button
-                  aria-label="Talk to Dmitry"
-                  className={styles.ctaButton}
-                >
-                  Talk to Dmitry
-                </button>
-              </Link>
+              <div className={styles.ctaContainer}>
+                <Link href="/#pricing">
+                  <button
+                    aria-label="Talk to Dmitry"
+                    className={styles.ctaButton}
+                  >
+                    Talk to Dmitry
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>

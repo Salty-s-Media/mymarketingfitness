@@ -30,8 +30,8 @@ export const Pricing = () => {
                       className={styles.checkIcon}
                     />
                     <span>
-                      Weekly program: 5 new videos per week: video with
-                      marketing exercises for every day.
+                      Weekly program - 5 new videos per week - video with
+                      marketing exercises for every day
                     </span>
                   </div>
                   <div className={styles.listItemContainer}>
@@ -102,7 +102,7 @@ export const Pricing = () => {
                 </div>
                 <div className={styles.listItemContainer}>
                   <Check width={16} height={16} className={styles.checkIcon} />
-                  <span>Limited video editing. 1 per month.</span>
+                  <span>Limited video editing - 1 per month</span>
                 </div>
               </div>
             </div>
@@ -142,7 +142,7 @@ export const Pricing = () => {
                     />
                     <span>
                       Unlimited video editing, including help with optimizing
-                      and publishing content on your YouTube channel.
+                      and publishing content on your YouTube channel
                     </span>
                   </div>
                   <div className={styles.listItemContainer}>

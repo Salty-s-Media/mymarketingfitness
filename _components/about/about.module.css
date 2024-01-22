@@ -31,7 +31,7 @@
   position: relative;
   overflow: hidden;
   z-index: -1;
-  height: 33rem;
+  min-height: 33rem;
 }
 
 .image {
@@ -47,11 +47,12 @@
 .textbox {
   display: inline-flex;
   width: 50%;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .description {
-  font-size: 1rem;
+  font-size: 1.25rem;
   word-spacing: normal;
   line-height: 1.5;
   text-align: left;
@@ -61,29 +62,23 @@
 }
 
 .ctaContainer {
-  width: 100%;
-  text-align: right;
-  margin-top: -2rem;
-  margin-right: 6rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
 .ctaButton {
   padding: 15px 30px;
-  width: 30%;
+  min-width: fit-content;
   font-size: 1rem;
   font-family: var(--font-inter), sans-serif;
   background-color: var(--btn);
   border: none;
   border-radius: 30px;
   cursor: pointer;
-}
-
-@media (max-width: 1920px) {
-  .ctaContainer {
-    margin-top: -2rem;
-    margin-left: -5rem;
-  }
 }
 
 @media (max-width: 1032px) {
@@ -99,7 +94,7 @@
   .imageContainer {
     width: 100%;
     margin: auto;
-    height: 75%;
+    min-height: 75%;
   }
   .textbox {
     width: 100%;
@@ -115,6 +110,7 @@
 
   .description {
     word-spacing: normal;
+    font-size: 16px;
     margin: 0;
     margin-top: 1rem;
   }
@@ -131,7 +127,6 @@
 
 @media (max-width: 720px) {
   .description {
-    font-size: 0.7rem;
     margin-top: 0.5rem;
   }
   .ctaContainer {

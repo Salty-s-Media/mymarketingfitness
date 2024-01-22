@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./navbar.module.css";
 import { MenuSquare, Phone, XSquare } from "lucide-react";
 
