@@ -15,6 +15,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <>
+      <div id="#" />
       <div className={styles.navarea}>
         <Logo />
         <Navbar />

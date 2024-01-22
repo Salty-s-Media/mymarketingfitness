@@ -44,7 +44,7 @@ button {
   background-color: var(--btn);
   border: none;
   color: white;
-  padding: 15px 15px;
+  padding: 15px 30px;
   text-align: center;
   text-decoration: none;
 }
@@ -55,6 +55,15 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: var(--t-d);
+    background: var(--bg-d);
+  }
+}
+@media (prefers-color-scheme: light) {
   html {
     color-scheme: dark;
   }

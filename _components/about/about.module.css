@@ -45,16 +45,17 @@
 }
 
 .textbox {
-  display: flex;
+  display: inline-flex;
   width: 50%;
   justify-content: center;
 }
 
 .description {
-  font-size: 16px;
+  font-size: 1rem;
+  word-spacing: normal;
   line-height: 1.5;
-  text-align: justify;
-  margin: 2rem;
+  text-align: left;
+  margin: auto 2rem;
   margin-top: 0;
   margin-right: 0;
 }
@@ -68,12 +69,11 @@
 }
 
 .ctaButton {
-  padding: 20px 30px;
+  padding: 15px 30px;
   width: 30%;
   font-size: 1rem;
   font-family: var(--font-inter), sans-serif;
   background-color: var(--btn);
-  color: #ffffff;
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -114,7 +114,6 @@
   }
 
   .description {
-    font-size: 14px;
     word-spacing: normal;
     margin: 0;
     margin-top: 1rem;
@@ -126,21 +125,16 @@
     text-align: center;
   }
   .ctaButton {
-    font-size: 18px;
     width: 90%;
-    padding: 10px 20px;
   }
 }
 
 @media (max-width: 720px) {
   .description {
-    font-size: 16px;
+    font-size: 0.7rem;
     margin-top: 0.5rem;
   }
   .ctaContainer {
     margin-top: 1rem;
-  }
-  .ctaButton {
-    padding: 10px 20px;
   }
 }

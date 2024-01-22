@@ -53,11 +53,10 @@
 
 .prevButton,
 .nextButton {
-  padding: 10px 7rem;
+  padding: 10px 6rem;
   z-index: 1;
   margin: 2rem;
   margin-bottom: 0;
-  font-size: 2em;
   font-family: var(--font-inter), sans-serif;
   background-color: var(--btn);
   color: #ffffff;

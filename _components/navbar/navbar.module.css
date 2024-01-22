@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 0.3%;
-  margin-left: -6rem;
+  margin-left: -5rem;
   margin-right: auto;
   gap: 2rem;
 }
@@ -53,8 +53,6 @@
 }
 
 .ebtn {
-  height: 55px;
-  width: 55px;
   text-align: center;
   background-color: #1b1b1b;
   font-size: 16px;
@@ -86,19 +84,21 @@
   cursor: pointer;
 }
 
-.cmbtn {
-  height: 55px;
-  width: 55px;
-  text-align: center;
-  background-color: #0e0e0e;
-  font-size: 16px;
-  border-radius: 10px;
-  margin-top: 1rem;
-  cursor: pointer;
-}
-
 .spc {
   margin-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.cmbtn {
+  width: fit-content;
+  height: fit-content;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 1rem;
+  background-color: #0e0e0e;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .modal {

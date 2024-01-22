@@ -28,3 +28,11 @@
     max-width: 80%;
   }
 }
+
+@media (max-width: 720px) {
+  .mainh1 {
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 80%;
+  }
+}

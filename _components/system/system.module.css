@@ -39,6 +39,7 @@
 
 .dayheader h2 {
   margin: 0;
+  font-size: 1.2rem;
 }
 
 .chevron-icons {
@@ -82,6 +83,7 @@
 
 .task {
   margin-bottom: 5px;
+  font-size: 1rem;
 }
 
 @media (max-width: 1032px) {
@@ -89,5 +91,15 @@
     font-size: 48px;
     line-height: 48px;
     max-width: 80%;
+  }
+}
+@media (max-width: 720px) {
+  .main {
+    font-size: 32px;
+    line-height: 32px;
+    max-width: 80%;
+  }
+  .task {
+    font-size: 0.8rem;
   }
 }

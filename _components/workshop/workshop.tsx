@@ -23,9 +23,7 @@ export const Workshop = () => {
         </div>
         <div className={styles.desc}>
           <div className={styles.heading}>
-            <h1>
-              <strong>2-Day Workshop At Your Business</strong>
-            </h1>
+            <h1>2-Day Workshop At Your Business</h1>
             <div className={styles.smspc} />
             <h3>Have Dmitry Lipinskiy come to you</h3>
             <div className={styles.smspc} />

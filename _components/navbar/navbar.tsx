@@ -98,7 +98,7 @@ export const Navbar = () => {
         </a>
       )}
       {isModalOpen && (
-        <div className={styles.modal} id="myModal">
+        <div className={styles.modal} id="Modal">
           <h1>Consultations</h1>
           <br />
           <p>
@@ -125,7 +125,7 @@ export const Navbar = () => {
               className={styles.cmbtn}
               onClick={toggleModal}
             >
-              <XSquare />
+              Close
             </button>
           </div>
         </div>
