@@ -11,6 +11,7 @@ import { Success } from "@/_components/success/success";
 import { EndCta } from "@/_components/bottomcta/end-cta";
 import { Workshop } from "@/_components/workshop/workshop";
 import Link from "next/link";
+import Social from "@/_components/socialProof/social";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <h1 className={`${styles.pageh1} ${"osw"}`}>
           Daily marketing sessions guaranteed to bring you more business.
         </h1>
+        <Social />
         <div id="video" />
         <p className={`${styles.pagep} ${"intr"}`}>
           Join our daily marketing sessions led by seasoned entrepreneur Dmitry

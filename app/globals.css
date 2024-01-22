@@ -9,6 +9,10 @@
   --btn-l: #ff5050;
 }
 
+.checked {
+  color: orange;
+}
+
 .osw {
   font-family: var(--font-oswald);
 }

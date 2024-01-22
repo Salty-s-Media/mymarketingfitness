@@ -1,0 +1,32 @@
+.socialProof {
+  max-width: 80%;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stars {
+  flex-direction: row;
+}
+
+.stars span {
+  margin: 0.1rem;
+}
+
+.rating {
+  margin-top: 0.5rem;
+  max-width: 420px;
+  font-family: var(--font-inter), sans-serif;
+  color: #acacac90;
+  font-size: 20px;
+}
+
+@media (max-width: 1032px) {
+  .rating {
+    font-size: 16px;
+    max-width: 380px;
+  }
+}

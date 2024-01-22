@@ -3,12 +3,13 @@
   font-family: var(--font-inter), sans-serif;
   color: #fff;
   padding: 20px 0;
+  align-items: center;
 }
 
 .footerContent {
-  max-width: 1200px;
+  max-width: 80%;
   margin: 0 auto;
-  padding: 2.5rem;
+  padding: 1.5rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -18,7 +19,7 @@
 .footerInfo {
   font-size: 16px;
   text-align: right;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .footerInfo p {
@@ -27,14 +28,19 @@
 
 .lg {
   margin-right: 3rem;
+  padding-right: 2rem;
 }
 
 @media (max-width: 1032px) {
+  .footerContent {
+    justify-content: space-between;
+  }
   .footerInfo {
     text-align: right;
     font-size: 14px;
   }
   .lg {
+    margin-right: 2rem;
     align-items: center;
   }
 }
@@ -42,9 +48,10 @@
 @media (max-width: 680px) {
   .footerContent {
     justify-content: center;
+    align-items: center;
   }
   .lg {
-    padding-right: 0;
+    margin-right: 0;
     align-items: center;
   }
   .footerInfo {
