@@ -4,8 +4,10 @@
   justify-content: center;
   align-items: center;
   padding: 1.75rem;
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   background: linear-gradient(to bottom, var(--bg-d), #151515a4);
 }
 
@@ -14,7 +16,7 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 9rem;
 }
 
 .pagep {

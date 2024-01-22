@@ -24,18 +24,18 @@
   -webkit-font-smoothing: antialiased;
 }
 
-html {
+html,
+body {
   scroll-behavior: smooth;
   ::-webkit-scrollbar {
     display: none;
   }
-  overflow-x: hidden !important;
-  max-width: 100dvw;
-  max-height: 100dvh;
+  overflow-x: hidden initial !important;
+  width: 100dvw;
+  height: 100dvh;
 }
+
 body {
-  max-width: 100dvw;
-  max-height: 100dvh;
   color: var(--t);
   background: var(--bg);
 }
