@@ -22,8 +22,8 @@ export const EndCta = () => {
               MAKE MARKETING YOUR COMPANY PART OF YOUR DAILY ROUTINE
             </h1>
             <Link href="/#pricing">
-              <button aria-label="Join" className={styles.joinButton}>
-                Join Now
+              <button aria-label="Get Started" className={styles.joinButton}>
+                Get Started
               </button>
             </Link>
           </div>

@@ -82,11 +82,8 @@ export const About = () => {
               </p>
               <div className={styles.ctaContainer}>
                 <Link href="/#pricing">
-                  <button
-                    aria-label="Talk to Dmitry"
-                    className={styles.ctaButton}
-                  >
-                    Talk to Dmitry
+                  <button aria-label="Get Started" className={styles.ctaButton}>
+                    Get Started
                   </button>
                 </Link>
               </div>
