@@ -28,6 +28,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
+      <head>
+        <link rel="shortcut icon" href="/favicon.svg" sizes="any" />
+      </head>
       <body>
         <Suspense fallback={<LoadingBar />}>{children}</Suspense>
       </body>
