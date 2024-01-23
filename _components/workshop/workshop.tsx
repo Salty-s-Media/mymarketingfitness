@@ -1,10 +1,18 @@
+"use client";
+
 import { Check } from "lucide-react";
 import { Sep } from "../seperator/sep";
 import styles from "./work.module.css";
-import Link from "next/link";
 
 export const Workshop = () => {
-  const vc = `${styles.videoContainer}`;
+  function handleCall() {
+    try {
+      window.open("tel:6123805285");
+    } catch {
+      console.log("Initiating call failed");
+    }
+  }
+
   return (
     <>
       <div className={styles.top}>
@@ -62,11 +70,13 @@ export const Workshop = () => {
             </div>
           </div>
           <div className={styles.gsb}>
-            <Link href="/#pricing">
-              <button aria-label="Get Started" className={styles.btn}>
-                Get Started
-              </button>
-            </Link>
+            <button
+              aria-label="Call for the price"
+              onClick={handleCall}
+              className={styles.btn}
+            >
+              Call for the price
+            </button>
           </div>
         </div>
       </div>
