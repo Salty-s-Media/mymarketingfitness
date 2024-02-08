@@ -122,7 +122,7 @@ export const Pricing = () => {
             <div className={styles.cardContent}>
               <h3>Buisness Plan</h3>
               <div className={styles.price}>
-                $599<span className={styles.monthly}>/mo</span>
+                $1499<span className={styles.monthly}>/mo</span>
               </div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
@@ -156,7 +156,7 @@ export const Pricing = () => {
                 </div>
               </div>
               <div className={styles.gsbCont}>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_O5umF0r5o5Nsal">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_Oxlllj5A4Zfzp9">
                   <button
                     aria-label="Get Started"
                     className={styles.getStartedBtn}
