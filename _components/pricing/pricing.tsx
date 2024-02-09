@@ -17,7 +17,7 @@ export const Pricing = () => {
         <div className={styles.container}>
           <div className={`${styles.pricingCard} ${styles.basic}`}>
             <div className={styles.cardContent}>
-              <h3>Basic Plan</h3>
+              <h3>Watch &amp; Learn</h3>
               <div className={styles.price}>
                 $97<span className={styles.monthly}>/mo</span>
               </div>
@@ -81,7 +81,7 @@ export const Pricing = () => {
           </div>
           <div className={`${styles.pricingCard} ${styles.pro}`}>
             <div className={styles.cardContent}>
-              <h3>Intermediate Plan</h3>
+              <h3>Learn with Assistance</h3>
               <div className={styles.price}>
                 $399<span className={styles.monthly}>/mo</span>
               </div>
@@ -90,11 +90,11 @@ export const Pricing = () => {
               <div className={styles.featureList}>
                 <div className={styles.listItemContainer}>
                   <Check width={16} height={16} className={styles.checkIcon} />
-                  <span>Everything in Basic Plan</span>
+                  <span>Everything in Watch &amp; Learn</span>
                 </div>
                 <div className={styles.listItemContainer}>
                   <Check width={16} height={16} className={styles.checkIcon} />
-                  <span>Weekly 15-minute Zoom calls with Dmitrys</span>
+                  <span>Weekly 15min Zoom calls with Dmitrys</span>
                 </div>
                 <div className={styles.listItemContainer}>
                   <Check width={16} height={16} className={styles.checkIcon} />
@@ -120,7 +120,7 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
-              <h3>Buisness Plan</h3>
+              <h3>Let us handle it</h3>
               <div className={styles.price}>
                 $1499<span className={styles.monthly}>/mo</span>
               </div>
@@ -132,7 +132,15 @@ export const Pricing = () => {
                       height={16}
                       className={styles.checkIcon}
                     />
-                    <span>Everything in the Intermediate Plan</span>
+                    <span>Everything in Learn With Assistance</span>
+                  </div>
+                  <div className={styles.listItemContainer}>
+                    <Check
+                      width={16}
+                      height={16}
+                      className={styles.checkIcon}
+                    />
+                    <span>Weekly 30min zoom calls with Dmitry or team</span>
                   </div>
                   <div className={styles.listItemContainer}>
                     <Check
@@ -151,7 +159,19 @@ export const Pricing = () => {
                       height={16}
                       className={styles.checkIcon}
                     />
-                    <span>Complete Rebranding</span>
+                    <span>
+                      Complete rebranding: new logo design, name change 1 on 1
+                      consultation and brain storming session with Dmitry and
+                      team
+                    </span>
+                  </div>
+                  <div className={styles.listItemContainer}>
+                    <Check
+                      width={16}
+                      height={16}
+                      className={styles.checkIcon}
+                    />
+                    <span>Unlimited Graphic Design</span>
                   </div>
                 </div>
               </div>
