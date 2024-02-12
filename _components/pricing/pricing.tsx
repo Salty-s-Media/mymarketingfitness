@@ -166,14 +166,6 @@ export const Pricing = () => {
                       team
                     </span>
                   </div>
-                  <div className={styles.listItemContainer}>
-                    <Check
-                      width={16}
-                      height={16}
-                      className={styles.checkIcon}
-                    />
-                    <span>Unlimited Graphic Design</span>
-                  </div>
                 </div>
               </div>
               <div className={styles.gsbCont}>
