@@ -122,10 +122,20 @@ export const Pricing = () => {
             <div className={styles.cardContent}>
               <div className={styles.bestValueSticker}>Best Value</div>
               <h3>Let us handle it</h3>
-              <div className={styles.price}>
-                $899
-                <span className={styles.monthly}>/mo</span>
+
+              <div className={styles.price2}>
+                <s style={{ fontSize: "1.2rem" }}>$1499/mo</s>
+                <br />
+                <span
+                  style={{
+                    fontSize: "4rem",
+                    color: "var(--btn)",
+                  }}
+                >
+                  $899<span className={styles.monthly}>/mo</span>
+                </span>
               </div>
+
               <p
                 style={{
                   fontSize: "1rem",
