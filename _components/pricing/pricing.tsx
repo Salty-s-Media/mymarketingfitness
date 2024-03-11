@@ -145,7 +145,7 @@ export const Pricing = () => {
                   borderRadius: "10px",
                 }}
               >
-                40% off until Mar 31st
+                40% off until March 31st
               </p>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
