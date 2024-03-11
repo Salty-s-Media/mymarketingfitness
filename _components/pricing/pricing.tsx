@@ -124,12 +124,13 @@ export const Pricing = () => {
               <h3>Let us handle it</h3>
 
               <div className={styles.price2}>
-                <s style={{ fontSize: "1.2rem" }}>$1499/mo</s>
+                <s style={{ fontSize: "1.2rem", color: "var(--btn)" }}>
+                  $1499/mo
+                </s>
                 <br />
                 <span
                   style={{
                     fontSize: "4rem",
-                    color: "var(--btn)",
                   }}
                 >
                   $899<span className={styles.monthly}>/mo</span>
