@@ -38,15 +38,6 @@ export const Navbar = () => {
                 Pricing
               </button>
             </Link>
-            <Link href="https://www.theroof.store/category/roofing-insights">
-              <button
-                aria-label="Buy Supplies"
-                onClick={toggleMenu}
-                className={styles.cbtn}
-              >
-                Buy Roofing Supplies
-              </button>
-            </Link>
             <Link href="http://marketingfitness.coachcatalyst.com/">
               <button
                 aria-label="Login"
@@ -78,12 +69,6 @@ export const Navbar = () => {
       >
         <Link href="/#pricing" className={styles.hoverUnderline}>
           Pricing
-        </Link>
-        <Link
-          href="https://www.theroof.store/category/roofing-insights"
-          className={styles.hoverUnderline}
-        >
-          Buy Roofing Supplies
         </Link>
         <Link
           href="http://marketingfitness.coachcatalyst.com/"
