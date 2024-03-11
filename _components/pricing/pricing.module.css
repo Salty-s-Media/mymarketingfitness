@@ -40,6 +40,15 @@
   font-weight: 500;
   line-height: 1;
 }
+.price2 {
+  text-transform: uppercase;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--btn-l);
+}
 
 .monthly {
   font-size: 2rem;
