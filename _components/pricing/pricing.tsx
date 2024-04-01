@@ -122,31 +122,9 @@ export const Pricing = () => {
             <div className={styles.cardContent}>
               <div className={styles.bestValueSticker}>Best Value</div>
               <h3>Let us handle it</h3>
-
-              <div className={styles.price2}>
-                <s style={{ fontSize: "1.2rem", color: "var(--btn)" }}>
-                  $1499/mo
-                </s>
-                <br />
-                <span
-                  style={{
-                    fontSize: "4rem",
-                  }}
-                >
-                  $899<span className={styles.monthly}>/mo</span>
-                </span>
+              <div className={styles.price}>
+                $1499<span className={styles.monthly}>/mo</span>
               </div>
-
-              <p
-                style={{
-                  fontSize: "1rem",
-                  color: "var(--btn)",
-                  backgroundColor: "var(--bg-d)",
-                  borderRadius: "10px",
-                }}
-              >
-                40% off until March 31st
-              </p>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
                   <div className={styles.listItemContainer}>
@@ -188,18 +166,10 @@ export const Pricing = () => {
                       team
                     </span>
                   </div>
-                  <div className={styles.listItemContainer}>
-                    <Check
-                      width={16}
-                      height={16}
-                      className={styles.checkIcon}
-                    />
-                    <span>Unlimited Graphic Design</span>
-                  </div>
                 </div>
               </div>
               <div className={styles.gsbCont}>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_Oxlllj5A4Zfzp9?promo=I4s9WJLw">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_Oxlllj5A4Zfzp9">
                   <button
                     aria-label="Get Started"
                     className={styles.getStartedBtn}
