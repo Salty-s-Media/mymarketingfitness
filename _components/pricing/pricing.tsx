@@ -81,6 +81,7 @@ export const Pricing = () => {
           </div>
           <div className={`${styles.pricingCard} ${styles.pro}`}>
             <div className={styles.cardContent}>
+              <div className={styles.bestValueSticker}>Best Value</div>
               <h3>Unlimited Video Editing</h3>
               <div className={styles.price}>
                 $997<span className={styles.monthly}>/mo</span>
@@ -94,7 +95,7 @@ export const Pricing = () => {
                 </div>
                 <div className={styles.listItemContainer}>
                   <Check width={16} height={16} className={styles.checkIcon} />
-                  <span>Weekly 15min Zoom calls with Dmitrys</span>
+                  <span>Weekly 15min Zoom calls with Dmitry</span>
                 </div>
                 <div className={styles.listItemContainer}>
                   <Check width={16} height={16} className={styles.checkIcon} />
@@ -123,7 +124,6 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
-              <div className={styles.bestValueSticker}>Best Value</div>
               <h3>Complete Branding/Rebranding</h3>
               <div className={styles.price}>
                 $1497<span className={styles.monthly}>/mo</span>
