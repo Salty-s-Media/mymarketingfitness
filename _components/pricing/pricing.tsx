@@ -81,9 +81,9 @@ export const Pricing = () => {
           </div>
           <div className={`${styles.pricingCard} ${styles.pro}`}>
             <div className={styles.cardContent}>
-              <h3>Weekly one-on-one mentorship calls with Dmitry</h3>
+              <h3>Unlimited Video Editing</h3>
               <div className={styles.price}>
-                $399<span className={styles.monthly}>/mo</span>
+                $997<span className={styles.monthly}>/mo</span>
               </div>
 
               <div className={styles.midcont}></div>
@@ -102,12 +102,15 @@ export const Pricing = () => {
                 </div>
                 <div className={styles.listItemContainer}>
                   <Check width={16} height={16} className={styles.checkIcon} />
-                  <span>Limited video editing - 1 per month</span>
+                  <span>
+                    Unlimited video editing, including help with optimizing and
+                    publishing content on your YouTube channel
+                  </span>
                 </div>
               </div>
             </div>
             <div className={styles.gsbCont}>
-              <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_Okf3XNqmn2D4XQ">
+              <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_PwV8ey6HvVA1DU">
                 <button
                   aria-label="Get Started"
                   className={styles.getStartedBtn}
@@ -121,9 +124,9 @@ export const Pricing = () => {
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
               <div className={styles.bestValueSticker}>Best Value</div>
-              <h3>Unlimited Video Editing</h3>
+              <h3>Complete Branding/Rebranding</h3>
               <div className={styles.price}>
-                $1499<span className={styles.monthly}>/mo</span>
+                $1497<span className={styles.monthly}>/mo</span>
               </div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
@@ -133,7 +136,7 @@ export const Pricing = () => {
                       height={16}
                       className={styles.checkIcon}
                     />
-                    <span>Everything in Learn With Assistance</span>
+                    <span>Everything in Unlimited Video Editing</span>
                   </div>
                   <div className={styles.listItemContainer}>
                     <Check
@@ -150,18 +153,7 @@ export const Pricing = () => {
                       className={styles.checkIcon}
                     />
                     <span>
-                      Unlimited video editing, including help with optimizing
-                      and publishing content on your YouTube channel
-                    </span>
-                  </div>
-                  <div className={styles.listItemContainer}>
-                    <Check
-                      width={16}
-                      height={16}
-                      className={styles.checkIcon}
-                    />
-                    <span>
-                      Complete rebranding: new logo design, name change 1 on 1
+                      Complete rebranding: new logo design, name change, 1 on 1
                       consultation and brain storming session with Dmitry and
                       team
                     </span>
@@ -169,7 +161,7 @@ export const Pricing = () => {
                 </div>
               </div>
               <div className={styles.gsbCont}>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_Oxlllj5A4Zfzp9">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_PwVFHJwp0Md1vJ">
                   <button
                     aria-label="Get Started"
                     className={styles.getStartedBtn}
