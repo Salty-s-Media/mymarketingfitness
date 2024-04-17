@@ -1,3 +1,5 @@
+"use client";
+
 import React from "react";
 import styles from "./pricing.module.css";
 import { Check } from "lucide-react";

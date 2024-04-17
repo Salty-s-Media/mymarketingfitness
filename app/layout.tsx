@@ -30,6 +30,8 @@ export default function RootLayout({
     <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
       <head>
         <link rel="shortcut icon" href="/favicon.svg" sizes="any" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/" />
       </head>
       <body>
         <Suspense fallback={<LoadingBar />}>{children}</Suspense>
