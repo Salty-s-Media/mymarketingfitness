@@ -4,6 +4,7 @@ import styles from "./success.module.css";
 
 export const Success = () => {
   const videos = [
+    { src: "https://fast.wistia.net/embed/iframe/e60rikpvts?seo=true" },
     { src: "https://fast.wistia.net/embed/iframe/an97adelc3?seo=true" },
     { src: "https://fast.wistia.net/embed/iframe/fk97xbxsqv?seo=true" },
     { src: "https://fast.wistia.net/embed/iframe/twsc5c6bjb?seo=true" },
