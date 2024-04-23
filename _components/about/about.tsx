@@ -47,7 +47,7 @@ export const About = () => {
       <div className="ac">
         <div className={styles.container}>
           <div className={styles.headingContainer}>
-            <h3 className={styles.heading}>About</h3>
+            <div className={styles.heading}>About</div>
           </div>
           <div className={styles.contentContainer}>
             <div className={styles.imageContainer}>

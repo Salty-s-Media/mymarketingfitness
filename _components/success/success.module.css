@@ -15,10 +15,11 @@
   text-align: left;
 }
 
-.heading h3 {
+.heading2 {
   font-size: 24px;
   margin-bottom: 1rem;
   font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
 }
 
 @media (max-width: 1032px) {

@@ -87,10 +87,11 @@
   text-align: left;
 }
 
-.heading h3 {
+.heading2 {
   font-size: 24px;
   margin-bottom: 1rem;
   font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
 }
 
 .pricingCard {
@@ -109,6 +110,12 @@
   position: relative;
   flex-direction: column;
   height: 100%;
+}
+
+.head3 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 .basic {

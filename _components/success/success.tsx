@@ -1,3 +1,5 @@
+"use client";
+
 import { Sep } from "../seperator/sep";
 import VideoCarousel from "../videoCarousel/videos";
 import styles from "./success.module.css";
@@ -17,7 +19,7 @@ export const Success = () => {
     <>
       <div className={styles.top}>
         <div className={styles.heading}>
-          <h3>Success</h3>
+          <div className={styles.heading2}>Success</div>
           <h1 className={styles.mainh1}>
             REAL BUSINESSES, REAL CHANGES: SEE THE CHANGE IN YOUR BUSINESS TODAY
           </h1>

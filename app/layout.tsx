@@ -17,8 +17,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Marketing Fitness",
-  description: "My Marketing Fitness Next App",
+  title: "My Marketing Fitness",
+  description: "My Marketing Fitness: Marketing for Roofers and Contractors",
 };
 
 export default function RootLayout({
@@ -27,13 +27,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${oswald.variable} ${inter.variable}`}>
+    <html lang="en">
       <head>
         <link rel="shortcut icon" href="/favicon.svg" sizes="any" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/" />
       </head>
-      <body>
+      <body className={`${oswald.variable} ${inter.variable}`}>
         <Suspense fallback={<LoadingBar />}>{children}</Suspense>
       </body>
     </html>

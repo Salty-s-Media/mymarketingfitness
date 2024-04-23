@@ -13,13 +13,13 @@ export const Pricing = () => {
       <br />
       <div className={styles.topmost}>
         <div className={styles.heading}>
-          <h3>Pricing</h3>
+          <div className={styles.heading2}>Pricing</div>
           <h1 className={styles.main}>PICK A PLAN THAT WORKS FOR YOU </h1>
         </div>
         <div className={styles.container}>
           <div className={`${styles.pricingCard} ${styles.basic}`}>
             <div className={styles.cardContent}>
-              <h3>Watch &amp; Learn</h3>
+              <div className={styles.head3}>Watch &amp; Learn</div>
               <div className={styles.price}>
                 $97<span className={styles.monthly}>/mo</span>
               </div>
@@ -84,7 +84,7 @@ export const Pricing = () => {
           <div className={`${styles.pricingCard} ${styles.pro}`}>
             <div className={styles.cardContent}>
               <div className={styles.bestValueSticker}>Best Value</div>
-              <h3>Unlimited Video Editing</h3>
+              <div className={styles.head3}>Unlimited Video Editing</div>
               <div className={styles.price}>
                 $997<span className={styles.monthly}>/mo</span>
               </div>
@@ -126,7 +126,7 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
-              <h3>Complete Branding/Rebranding</h3>
+              <div className={styles.head3}>Complete Branding/Rebranding</div>
               <div className={styles.price}>
                 $1497<span className={styles.monthly}>/mo</span>
               </div>

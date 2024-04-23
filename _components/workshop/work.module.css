@@ -20,9 +20,10 @@
   max-width: 640px;
 }
 
-.desc h3 {
+.desc3 {
   font-size: 1rem;
   font-family: var(--font-inter), sans-serif;
+  font-weight: 600;
 }
 
 .desc h2 {

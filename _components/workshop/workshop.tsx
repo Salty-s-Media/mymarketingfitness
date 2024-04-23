@@ -33,7 +33,9 @@ export const Workshop = () => {
           <div className={styles.heading}>
             <h1>2-Day Workshop At Your Business</h1>
             <div className={styles.smspc} />
-            <h3>Have Dmitry Lipinskiy come to you</h3>
+            <div className={styles.desc3}>
+              Have Dmitry Lipinskiy come to you
+            </div>
             <div className={styles.smspc} />
             <h2>$12,000</h2>
           </div>
@@ -42,8 +44,8 @@ export const Workshop = () => {
               <Check width={16} height={16} className={styles.checkIcon} />
               <span>
                 Dmitry will evaluate your overall marketing strategy and
-                customize the workshop based on your company’s strengths and
-                greatest needs
+                customize the workshop based on your company&apos;s strengths
+                and greatest needs
               </span>
             </div>
             <div className={styles.listItemContainer}>
