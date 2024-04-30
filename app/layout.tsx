@@ -17,9 +17,19 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.mymarketingfitness.com"),
+  metadataBase: new URL("https://mymarketingfitness.com"),
   title: "My Marketing Fitness",
   description: "My Marketing Fitness: Marketing for Roofers and Contractors",
+  robots: {
+    index: true,
+    follow: true,
+    nocache: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      noimageindex: true,
+    },
+  },
   keywords: [
     "roofing marketing",
     "contractor marketing",
@@ -51,7 +61,7 @@ export const metadata: Metadata = {
         alt: "My Marketing Fitness Logo",
       },
     ],
-    url: "https://www.mymarketingfitness.com",
+    url: "https://mymarketingfitness.com",
     type: "website",
   },
 };
