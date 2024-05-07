@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
       <div className={styles.spc}></div>
       <div className={styles.container}>
         <div className={styles.section}>
-          <div className={styles.title}>PRIVACY POLICY</div>
+          <div className={styles.title}>Privacy Policy</div>
           <div className={styles.subtitle}>May 6th, 2024</div>
           <div className={styles.text}>
             This policy defines the policy of Roofing Insights LLC (hereinafter
