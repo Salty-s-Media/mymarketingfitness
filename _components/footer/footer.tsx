@@ -23,9 +23,19 @@ export const Footer = () => {
               textDecoration: "underline",
               color: "skyblue",
             }}
-            href="/refund-policy"
+            href="/refund_policy"
           >
             Refund Policy
+          </Link>
+          <Link
+            style={{
+              marginLeft: "8px",
+              textDecoration: "underline",
+              color: "skyblue",
+            }}
+            href="/privacy_policy"
+          >
+            Privacy Policy
           </Link>
         </div>
       </div>
