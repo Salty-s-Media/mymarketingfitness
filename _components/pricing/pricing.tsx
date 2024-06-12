@@ -142,23 +142,23 @@ export const Pricing = () => {
               </div>
               <br></br>
               <div className={styles.gsbCont}>
-                <div
-                  style={{
-                    fontFamily: "var(--font-inter)",
-                    textTransform: "none",
-                    padding: "0.65rem 1rem",
-                    marginBottom: "15px",
-                    backgroundColor: "var(--bg-d)",
-                    outline: "var(--btn) 2px solid",
-                    borderRadius: "20px",
-                    textAlign: "center",
-                    fontSize: "0.8rem",
-                  }}
-                >
-                  <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
+                <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
+                  <div
+                    style={{
+                      fontFamily: "var(--font-inter)",
+                      textTransform: "none",
+                      padding: "0.65rem 1rem",
+                      marginBottom: "15px",
+                      backgroundColor: "var(--bg-d)",
+                      outline: "var(--btn) 2px solid",
+                      borderRadius: "20px",
+                      textAlign: "center",
+                      fontSize: "0.8rem",
+                    }}
+                  >
                     Schedule 15min Demo
-                  </Link>
-                </div>
+                  </div>
+                </Link>
                 <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_QGj9qlc9nOMpWg">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
@@ -233,23 +233,23 @@ export const Pricing = () => {
               </div>
               <br></br>
               <div className={styles.gsbCont}>
-                <div
-                  style={{
-                    fontFamily: "var(--font-inter)",
-                    textTransform: "none",
-                    padding: "0.65rem 1rem",
-                    marginBottom: "15px",
-                    backgroundColor: "var(--bg-d)",
-                    outline: "var(--btn) 2px solid",
-                    borderRadius: "20px",
-                    textAlign: "center",
-                    fontSize: "0.8rem",
-                  }}
-                >
-                  <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
+                <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
+                  <div
+                    style={{
+                      fontFamily: "var(--font-inter)",
+                      textTransform: "none",
+                      padding: "0.65rem 1rem",
+                      marginBottom: "15px",
+                      backgroundColor: "var(--bg-d)",
+                      outline: "var(--btn) 2px solid",
+                      borderRadius: "20px",
+                      textAlign: "center",
+                      fontSize: "0.8rem",
+                    }}
+                  >
                     Schedule 15min Demo
-                  </Link>
-                </div>
+                  </div>
+                </Link>
                 <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_PwVFHJwp0Md1vJ">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
