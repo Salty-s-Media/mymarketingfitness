@@ -152,7 +152,7 @@ export const Pricing = () => {
                     }}
                   >
                     <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
-                      Schedule a demo with Dmitry if considering this plan
+                      Schedule 15min Demo
                     </Link>
                   </div>
                 </div>
@@ -243,7 +243,7 @@ export const Pricing = () => {
                     }}
                   >
                     <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
-                      Schedule a demo with Dmitry if considering this plan
+                      Schedule 15min Demo
                     </Link>
                   </div>
                 </div>
