@@ -66,7 +66,7 @@ export const Pricing = () => {
             </div>
             <br></br>
             <div className={styles.gsbCont}>
-              <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_O26684ZVRSG7pp">
+              <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_OmBbWAdENbAqAR">
                 <button aria-label="Sign Up" className={styles.getStartedBtn}>
                   Sign Up
                 </button>
@@ -138,12 +138,17 @@ export const Pricing = () => {
                       business emergencies or decision-making assistance
                     </span>
                   </div>
+                </div>
+              </div>
+              <br></br>
+              <div className={styles.gsbCont}>
+                <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
                   <div
-                    className={styles.listItemContainer}
                     style={{
-                      margin: "auto",
-                      marginTop: "1rem",
-                      padding: "0.5rem 1rem",
+                      fontFamily: "var(--font-inter)",
+                      textTransform: "none",
+                      padding: "0.65rem 1rem",
+                      marginBottom: "15px",
                       backgroundColor: "var(--bg-d)",
                       outline: "var(--btn) 2px solid",
                       borderRadius: "20px",
@@ -151,14 +156,9 @@ export const Pricing = () => {
                       fontSize: "0.8rem",
                     }}
                   >
-                    <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
-                      Schedule 15min Demo
-                    </Link>
+                    Schedule 15min Demo
                   </div>
-                </div>
-              </div>
-              <br></br>
-              <div className={styles.gsbCont}>
+                </Link>
                 <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_QGj9qlc9nOMpWg">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
@@ -229,12 +229,17 @@ export const Pricing = () => {
                       but included when ready)
                     </span>
                   </div>
+                </div>
+              </div>
+              <br></br>
+              <div className={styles.gsbCont}>
+                <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
                   <div
-                    className={styles.listItemContainer}
                     style={{
-                      margin: "auto",
-                      marginTop: "1rem",
-                      padding: "0.5rem 1rem",
+                      fontFamily: "var(--font-inter)",
+                      textTransform: "none",
+                      padding: "0.65rem 1rem",
+                      marginBottom: "15px",
                       backgroundColor: "var(--bg-d)",
                       outline: "var(--btn) 2px solid",
                       borderRadius: "20px",
@@ -242,14 +247,9 @@ export const Pricing = () => {
                       fontSize: "0.8rem",
                     }}
                   >
-                    <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
-                      Schedule 15min Demo
-                    </Link>
+                    Schedule 15min Demo
                   </div>
-                </div>
-              </div>
-              <br></br>
-              <div className={styles.gsbCont}>
+                </Link>
                 <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_PwVFHJwp0Md1vJ">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
