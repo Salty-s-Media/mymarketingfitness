@@ -38,14 +38,6 @@ export default function Home() {
               Get Started Now
             </button>
           </Link>
-          <Link href="/#video">
-            <button
-              aria-label="Watch Video"
-              className={styles.ctaButtonSecondary}
-            >
-              Watch Video
-            </button>
-          </Link>
         </div>
         <Video />
         <About />
