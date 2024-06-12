@@ -76,9 +76,8 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.pro}`}>
             <div className={styles.cardContent}>
-              <div className={styles.bestValueSticker}>Best Value</div>
               <div className={styles.head3}>$397</div>
-              <div className={styles.price}>Learn and Create</div>
+              <div className={styles.price}>Learn &amp; Create</div>
 
               <div className={styles.midcont}></div>
               <div className={styles.featureList}>
@@ -107,6 +106,7 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
+              <div className={styles.bestValueSticker}>Best Value</div>
               <div className={styles.head3}>$997</div>
               <div className={styles.price}>Mentorship Plan</div>
               <div className={styles.midcont}>
