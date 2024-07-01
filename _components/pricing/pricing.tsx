@@ -133,6 +133,14 @@ export const Pricing = () => {
                       height={16}
                       className={styles.checkIcon}
                     />
+                    <span>Unlimited Video Editing</span>
+                  </div>
+                  <div className={styles.listItemContainer}>
+                    <Check
+                      width={16}
+                      height={16}
+                      className={styles.checkIcon}
+                    />
                     <span>
                       Dmitry's cell number for texting 7 days a week for
                       business emergencies or decision-making assistance
