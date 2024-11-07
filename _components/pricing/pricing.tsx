@@ -107,7 +107,7 @@ export const Pricing = () => {
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
               <div className={styles.bestValueSticker}>Best Value</div>
-              <div className={styles.head3}>$997</div>
+              <div className={styles.head3}>$1497</div>
               <div className={styles.price}>Mentorship Plan</div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
@@ -167,7 +167,7 @@ export const Pricing = () => {
                     Schedule 15min Demo
                   </div>
                 </Link>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_QGj9qlc9nOMpWg">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_RAUcbjtlYP3qr4">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
                   </button>
@@ -178,7 +178,7 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
-              <div className={styles.head3}>$1497</div>
+              <div className={styles.head3}>$1997</div>
               <div className={styles.price}>Mentorship &amp; Branding</div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
@@ -258,7 +258,7 @@ export const Pricing = () => {
                     Schedule 15min Demo
                   </div>
                 </Link>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_PwVFHJwp0Md1vJ">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_RAUdq0ATvFYGE6">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
                   </button>
