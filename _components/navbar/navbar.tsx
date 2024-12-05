@@ -93,13 +93,13 @@ export const Navbar = () => {
           <br />
           <br />
           <h3>30-Minute Zoom Call, $299</h3>
-          <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
+          <Link href="https://calendly.com/roofing-insights/dmitry-s-consultation-30-min">
             <button aria-label="Book Now" className={styles.mbtn}>
               Book Now
             </button>
           </Link>
           <h3>60-Minute Zoom Call, $499</h3>
-          <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
+          <Link href="https://calendly.com/roofing-insights/60-min-zoom-consultation-clone">
             <button aria-label="Book Now" className={styles.mbtn}>
               Book Now
             </button>

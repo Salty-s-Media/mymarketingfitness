@@ -164,10 +164,10 @@ export const Pricing = () => {
                       fontSize: "0.8rem",
                     }}
                   >
-                    Schedule 15min Demo
+                    Schedule 10min Demo
                   </div>
                 </Link>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_RAUcbjtlYP3qr4">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_QGj9qlc9nOMpWg">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
                   </button>
@@ -255,10 +255,10 @@ export const Pricing = () => {
                       fontSize: "0.8rem",
                     }}
                   >
-                    Schedule 15min Demo
+                    Schedule 10min Demo
                   </div>
                 </Link>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_RAUdq0ATvFYGE6">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_PwVFHJwp0Md1vJ">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
                   </button>
