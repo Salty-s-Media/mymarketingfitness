@@ -258,7 +258,7 @@ export const Pricing = () => {
                     Schedule 10min Demo
                   </div>
                 </Link>
-                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_PwVFHJwp0Md1vJ">
+                <Link href="https://app.coachcatalyst.com/shared_stripe_product/#/organization/12307/products/prod_RLQLQI57LF0DOt">
                   <button aria-label="Sign Up" className={styles.getStartedBtn}>
                     Sign Up
                   </button>
