@@ -19,7 +19,7 @@ export const Pricing = () => {
         <div className={styles.container}>
           <div className={`${styles.pricingCard} ${styles.basic}`}>
             <div className={styles.cardContent}>
-              <div className={styles.head3}>$97</div>
+              <div className={styles.head3}>$97/month</div>
               <div className={styles.price}>Watch &amp; Learn</div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
@@ -76,7 +76,7 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.pro}`}>
             <div className={styles.cardContent}>
-              <div className={styles.head3}>$397</div>
+              <div className={styles.head3}>$397/month</div>
               <div className={styles.price}>Learn &amp; Create</div>
 
               <div className={styles.midcont}></div>
@@ -107,7 +107,7 @@ export const Pricing = () => {
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
               <div className={styles.bestValueSticker}>Best Value</div>
-              <div className={styles.head3}>$1497</div>
+              <div className={styles.head3}>$1497/month</div>
               <div className={styles.price}>Mentorship Plan</div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
@@ -178,8 +178,8 @@ export const Pricing = () => {
 
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
-              <div className={styles.head3}>$1997</div>
-              <div className={styles.price}>Mentorship &amp; Branding</div>
+              <div className={styles.head3}>$10000</div>
+              <div className={styles.price}>Branding &amp; Rebranding</div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
                   <div className={styles.listItemContainer}>
@@ -188,7 +188,7 @@ export const Pricing = () => {
                       height={16}
                       className={styles.checkIcon}
                     />
-                    <span>Everything in the previous plans</span>
+                    <span>Lifetime access to the DirectoriiAds program</span>
                   </div>
                   <div className={styles.listItemContainer}>
                     <Check
