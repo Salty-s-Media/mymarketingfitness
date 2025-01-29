@@ -4,14 +4,10 @@
 }
 
 .container {
-  display: grid;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
   font-family: var(--font-inter), sans-serif;
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .bestValueSticker {
@@ -98,7 +94,6 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   font-family: var(--font-oswald), sans-serif;
   text-transform: uppercase;
