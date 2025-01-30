@@ -89,19 +89,6 @@ export const Pricing = () => {
           </div>
         </div>
       </div>
-      <br></br>
-      <p
-        style={{
-          fontFamily: 'var(--font-oswald)',
-          color: 'var(--t-m)',
-          textTransform: 'uppercase',
-          fontSize: '1rem',
-          marginBottom: '0.3rem',
-          margin: 'auto',
-        }}
-      >
-        Billed month to month until canceled. Cancel anytime.
-      </p>
       <Sep />
     </>
   );
