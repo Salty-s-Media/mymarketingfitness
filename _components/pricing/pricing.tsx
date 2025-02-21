@@ -20,7 +20,7 @@ export const Pricing = () => {
           <div className={`${styles.pricingCard} ${styles.plus}`}>
             <div className={styles.cardContent}>
               <div className={styles.head3}>$997</div>
-              <div className={styles.price}>Branding &amp; Rebranding</div>
+              <div className={styles.price}>Lifetime Access</div>
               <div className={styles.midcont}>
                 <div className={styles.featureList}>
                   <div className={styles.listItemContainer}>
