@@ -62,7 +62,7 @@ export const Pricing = () => {
               </div>
               <br></br>
               <div className={styles.gsbCont}>
-                <Link href="https://calendly.com/roofing-insights/demo-call-marketing-fitness">
+                <Link href="https://calendly.com/daniel-directorii/dmitrylipinskiy-com-demo-call">
                   <div
                     style={{
                       fontFamily: 'var(--font-inter)',
